@@ -5,38 +5,7 @@ import { AspectRatio } from "@chakra-ui/react";
 import Slider from "react-slick";
 import Carousel from "../../Components/Carousel";
 
-// function SliderComponent() {
 
-//   const settings = {
-//     dots: true,
-//     infinite: true,
-//     slidesToShow: 4,
-//     slidesToScroll: 1,
-//     autoplay: true,
-//     speed: 2000,
-//     autoplaySpeed: 2000,
-// cssEase: "linear",
-//   };
-
-//   return (
-//     <div>
-//       <Slider {...settings}>
-//         <div>
-//          <Image src="https://files.myglamm.com/site-images/original/ult1920x527_1.jpg" />
-//         </div>
-//         <div>
-//         <Image src ='https://files.myglamm.com/site-images/original/popxo1920x527-1_3.jpg'/>
-//         </div>
-//         <div>
-//          <Image src ='https://files.myglamm.com/site-images/original/eye1920x527.png'/>
-//         </div>
-//         <div>
-//          <Image src="https://files.myglamm.com/site-images/original/SS1920x527_1.jpg" />
-//         </div>
-//       </Slider>
-//     </div>
-//   );
-// }
 
 const Home = () => {
   return (
@@ -46,7 +15,7 @@ const Home = () => {
         alt="1"
       />
       <br />
-      slider
+      
       <Carousel />
       <br />
       <Image
